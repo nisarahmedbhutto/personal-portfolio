@@ -1,0 +1,56 @@
+#cardContenor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    flex-direction: column;
+    padding-top: 15px;
+    border-radius: 20px;
+    gap: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+#card img{
+    width: 270px;
+    height:150px ;
+    border-radius: 20px;
+}
+
+#discreption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#discreption h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: rgb(189, 162, 162);
+
+}
+
+
+#discreption button{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: black;
+}
+#discreption button a{
+    text-decoration: none;
+    color: white;
+}
+#discreption button a:hover{
+    color:rgb(15, 126, 15);
+}
+

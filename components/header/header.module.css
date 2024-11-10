@@ -1,0 +1,124 @@
+
+/* all header styling here */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  padding: 0px 100px 0px 100px;
+  background-color: rgb(66, 122, 145);
+  position: fixed;
+}
+
+/* header heading styling */
+#header h1{
+    font-size: 40px;
+}
+
+#header span{
+    color:black
+}
+
+/* pages styling  */
+
+#pages li{
+    font-size: 25px;
+    list-style-type: none;
+}
+
+#pages a{
+    text-decoration: none;
+    color: white;
+}
+
+#pages ol{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#pages a:hover{
+    background-color: rgb(27, 79, 100);
+  border-radius: 5px;
+  color: #333;
+}
+
+/* Hamburger (Menu Toggle) */
+#hidden {
+  display: none;  /* Hide by default */
+  cursor: pointer;
+}
+
+
+@media  only screen  and (max-width:1024) {
+   #header {
+  padding: 0px 30px 0px 30px;
+  
+}
+
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+  #pages {
+    display: none;  /* Hide desktop navigation */
+  }
+
+  #hidden {
+    display: block;  /* Show hamburger button */
+  }
+
+  /* Mobile Navigation */
+  #pagesMobile {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;  /* Adjust based on your header height */
+    right: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #pagesMobile li {
+    margin: 10px 0;
+  }
+
+  #pagesMobile a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+  }
+
+  #header h1{
+    font-size: 20px;
+}
+}
+
+@media  only screen  and (max-width:425) {
+   #header {
+  /* padding: 0px 30px 0px 30px; */
+  height: 80px;
+  
+}
+#header h1{
+    font-size: 20px;
+}
+ 
+  #pagesMobile {
+    
+    top: 120px;  /* Adjust based on your header height */
+    font-size: 50px;
+  }
+#pagesMobile a {
+    
+    font-size: 2.2rem;
+  }
+
+}

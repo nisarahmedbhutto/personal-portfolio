@@ -1,0 +1,453 @@
+
+/* parent contenor */
+
+#homePage{
+    display: grid;
+    grid-template-rows: 400px 370px 320px auto;
+}
+
+#homePage span{
+    color: rgb(126, 172, 190);
+}
+
+/* profile section */
+#profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#headings{
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 40px;
+ 
+}
+
+#headings h3{
+    padding-top: 40px;
+}
+
+#imgContenor figure img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#imgContenor figure{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 50px;
+
+}
+
+/* skills section */
+#skills{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+}
+
+#skills h2{
+    font-size: 80px;
+}
+
+#skills li{
+    padding-top: 10px;
+    font-size: 30px;
+    list-style-type: none;
+}
+#skills ul{
+    padding-top: 30px;
+}
+
+/* journey section */
+#journey{
+    display: grid;
+    padding-left: 200px;
+    padding-top: 100px;
+   
+}
+
+#journey h2{
+    font-size: 60px;
+}
+#journey p{
+    font-size: 20px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: rgb(53, 52, 52);
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+/* projects section */
+#projects {
+    height: auto;           
+    min-height: 200px;     
+    box-sizing: border-box; 
+}
+
+#lastHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+#lastHead h2{
+    font-size: 100px;
+}
+
+#uiProjects h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+#uicard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    margin-bottom: 50px;
+    
+}
+
+#cliProjects h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+#clicard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    margin-bottom: 50px;    margin-bottom: 100px;
+
+}
+
+/* media quirease */
+@media only screen and (max-width:768px) and (min-width:530px) {
+    /* section profile */
+        #profile{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        }
+
+        #headings{
+        font-size: 25px;
+    
+        }
+
+        #imgContenor figure img{
+            width: 210px;
+            height: 210px;
+        }
+        
+    /* section skills */
+    /* skills section */
+        #skills{
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        }
+        
+        /* journey section */
+        #journey{
+            display: grid;
+            padding-left: 100px;
+        
+        }
+
+        #journey h2{
+            font-size: 40px;
+        }
+        #journey p{
+            font-size: 20px;
+            width: 400px;
+            border-radius: 15px;
+            background-color: rgb(53, 52, 52);
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        /* projects section */
+        #projects {
+            height: auto;           
+            min-height: 200px;     
+            box-sizing: border-box; 
+        }
+
+        
+        #lastHead h2{
+            font-size: 80px;
+            padding-top: 100px;
+            
+        }
+
+        #uiProjects h2{
+            
+            font-size: 40px;
+        }
+
+        #uicard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 30px;
+            margin-bottom: 50px;
+            
+        }
+
+        #cliProjects h2{
+            
+            font-size: 40px;
+        }
+
+        #clicard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 30px;
+            margin-bottom: 50px;    
+            margin-bottom: 100px;
+
+        }
+
+
+}
+
+@media only screen and (max-width:530px) and (min-width:350px) {
+    /* section profile */
+        #profile{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 50px;
+        }
+
+        #headings{
+        font-size: 30px;
+    
+        }
+
+        #imgContenor figure img{
+            width: 280px;
+            height: 280px;
+        }
+
+        #imgContenor figure{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+
+    }
+        
+    /* skills section */
+        #skills{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 300px;
+        }
+
+        #skills h2{
+            font-size: 60px;
+        }
+
+        #skills li{
+            padding-top: 10px;
+            font-size: 25px;
+        }
+        #skills ul{
+            padding-top: 50px;
+        }
+
+        /* journey section */
+        #journey{
+            display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 300px;
+        
+        }
+
+        #journey h2{
+            font-size: 40px;
+        }
+        #journey p{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 20px;
+            width: 300px;
+            background-color: rgb(53, 52, 52);
+            /* padding: 15px; */
+            margin-top: 30px;
+            
+        }
+
+        /* projects section */
+        #lastHead h2{
+            font-size: 50px;
+            padding-top: 200px;
+            
+        }
+
+        #uiProjects h2{
+            font-size: 30px;
+        }
+
+        #uicard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 30px;
+            margin-bottom: 50px;
+            
+        }
+
+        #cliProjects h2{
+            
+            font-size: 20px;
+        }
+
+        #clicard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 30px;
+            margin-bottom: 50px;    
+            margin-bottom: 100px;
+
+        }
+
+}
+@media only screen and (max-width:350px){
+    /* section profile */
+        #profile{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 50px;
+        }
+
+        #headings{
+        font-size: 20px;
+    
+        }
+
+        #imgContenor figure img{
+            width: 280px;
+            height: 280px;
+        }
+
+        #imgContenor figure{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+
+    }
+        
+    /* section skills */
+        #skills{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 200px;
+        }
+
+        #skills h2{
+            font-size: 60px;
+        }
+
+        #skills li{
+            padding-top: 10px;
+            font-size: 25px;
+        }
+        #skills ul{
+            padding-top: 50px;
+        }
+
+        /* journey section */
+        #journey{
+            display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 200px;
+        
+        }
+
+        #journey h2{
+            font-size: 20px;
+        }
+        #journey p{
+            font-size: 18px;
+            width: 250px;
+            
+        }
+        
+        /* projects section */
+
+        #lastHead h2{
+            font-size: 40px;
+            padding-top: 200px;
+            
+        }
+
+        #uiProjects h2{
+            
+            font-size: 18px;
+        }
+
+        #uicard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 30px;
+            margin-bottom: 50px;
+            
+        }
+
+        #cliProjects h2{
+            
+            font-size: 20px;
+        }
+
+        #clicard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 30px;
+            margin-bottom: 50px;    
+            margin-bottom: 100px;
+
+        }
+}

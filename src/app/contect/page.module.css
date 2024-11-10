@@ -1,0 +1,58 @@
+#contectPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px 50px 50px;
+}
+
+#contectPage ol{
+    background-color: rgb(36, 35, 35);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+#contectPage li{
+    list-style-type: none;
+    font-size: 35px;
+}
+
+#contectPage span{
+    font-size: 67px;
+}
+
+#contectPage a{
+    text-decoration: none;
+    color: white;
+}
+
+#contectPage a:hover{
+    background-color: rgb(29, 28, 28);
+    color: black;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:768px) {
+    
+#contectPage li{
+    font-size: 30px;
+}
+
+#contectPage span{
+    font-size: 47px;
+}
+
+
+}
+@media only screen and (max-width:400px) {
+    
+#contectPage li{
+    font-size: 15px;
+}
+
+#contectPage span{
+    font-size: 27px;
+}
+
+
+}

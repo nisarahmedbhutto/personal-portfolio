@@ -1,0 +1,37 @@
+#introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    color: white;
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+#introduction ol{
+    background-color: rgb(44, 43, 43);
+    padding: 20px;
+    border-radius: 10px;
+    height: 260px;
+}
+
+#introduction dl{
+    background-color: rgb(44, 43, 43);
+    padding: 20px;
+    border-radius: 10px;
+}
+#introduction dl dt{
+    font-size: 75px;
+}
+#introduction dl dd{
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    gap:90px;
+    width: 300px;
+}
+
+#introduction li{
+    list-style-type: none;
+}
